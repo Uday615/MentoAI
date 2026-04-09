@@ -1,0 +1,36 @@
+{
+  "model_results": {
+    "Logistic Regression": {
+      "accuracy": 0.9508,
+      "f1_weighted": 0.9478,
+      "cv_mean": 0.982,
+      "cv_std": 0.0233
+    },
+    "Random Forest": {
+      "accuracy": 0.9344,
+      "f1_weighted": 0.9306,
+      "cv_mean": 0.9479,
+      "cv_std": 0.0256
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.9344,
+      "f1_weighted": 0.9343,
+      "cv_mean": 0.9375,
+      "cv_std": 0.021
+    }
+  },
+  "best_model": "Logistic Regression",
+  "feature_count": 25,
+  "training_samples": 242,
+  "test_samples": 61,
+  "risk_distribution": {
+    "0": 78,
+    "1": 214,
+    "2": 11
+  },
+  "source_distribution": {
+    "mentor": 234,
+    "student": 69
+  },
+  "training_source": "aligned_csv_forms"
+}

@@ -1,0 +1,1915 @@
+{
+  "screening_sessions": [
+    {
+      "student_name": "ca",
+      "student_id": "ca",
+      "screening_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 30,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.0,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 3.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-09T16:16:36.039206+00:00",
+      "_id": "2230a3a5-d5f4-4cec-9fde-0bccb989a39b"
+    },
+    {
+      "student_name": "cr",
+      "student_id": "gt",
+      "screening_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 30,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.0,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 3.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-09T16:33:50.556982+00:00",
+      "_id": "13058808-ef9d-44b4-ba1d-afe29d30bf32"
+    },
+    {
+      "student_name": "ffc",
+      "student_id": "cz",
+      "screening_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 30,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.0,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 3.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-09T17:07:38.876963+00:00",
+      "_id": "25ad4275-32f3-4d96-bfa1-69b8f86486f9"
+    },
+    {
+      "student_name": "ffc",
+      "student_id": "cz",
+      "screening_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 30,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.0,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 3.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-09T17:11:01.387452+00:00",
+      "_id": "af698138-0f09-46ef-af12-23d92892529a"
+    },
+    {
+      "student_name": "has",
+      "student_id": "456",
+      "screening_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 30,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.0,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 3.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-09T17:21:53.884698+00:00",
+      "_id": "bab37aeb-8e83-4660-8b48-6e5059408987"
+    },
+    {
+      "student_name": "yubchjdc",
+      "student_id": "yu",
+      "screening_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 30,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.0,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 3.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-09T17:25:58.309901+00:00",
+      "_id": "358755a2-9d1b-4c01-8cd8-fe5bd7ae823a"
+    },
+    {
+      "student_name": "nal",
+      "student_id": "mal",
+      "screening_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 30,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.0,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 3.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-09T17:29:18.889955+00:00",
+      "_id": "f8a758c7-9a1a-4a53-9175-909233352a98"
+    },
+    {
+      "student_name": "huj",
+      "student_id": "huj",
+      "screening_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 30,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.0,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 3.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-09T17:34:40.730486+00:00",
+      "_id": "c134683e-755d-4192-a7f4-c3050bfcc997"
+    },
+    {
+      "student_name": "cdas",
+      "student_id": "ca",
+      "screening_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 30,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.0,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 3.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-09T17:48:43.874657+00:00",
+      "_id": "31ce358d-9649-4aac-b898-ce1314cabb62"
+    }
+  ],
+  "assessment_sessions": [
+    {
+      "student_name": "ca",
+      "student_id": "ca",
+      "programme": "cda",
+      "assessment_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 26.7,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6
+      },
+      "xai": {
+        "top_indicators": [
+          "The student struggles significantly with academic coursework."
+        ],
+        "domain_scores": {
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          }
+        },
+        "all_shap_values": [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.",
+        "llm_guidance": "",
+        "retrieved_context": "create this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]",
+        "verification": {
+          "is_valid": true,
+          "issues": [],
+          "cleaned_suggestion": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-09T16:16:48.227961+00:00",
+      "_id": "14190cf1-525d-4237-808d-c0f866cd8086"
+    },
+    {
+      "student_name": "cr",
+      "student_id": "gt",
+      "programme": "fce",
+      "assessment_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 26.7,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6
+      },
+      "xai": {
+        "top_indicators": [
+          "The student struggles significantly with academic coursework."
+        ],
+        "domain_scores": {
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          }
+        },
+        "all_shap_values": [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.",
+        "llm_guidance": "",
+        "retrieved_context": "create this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]",
+        "verification": {
+          "is_valid": true,
+          "issues": [],
+          "cleaned_suggestion": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-09T16:33:56.913644+00:00",
+      "_id": "bfb3fb7c-def3-4ad1-8e15-89a326dba92e"
+    },
+    {
+      "student_name": "ffc",
+      "student_id": "cz",
+      "programme": "csa",
+      "assessment_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 26.7,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6
+      },
+      "xai": {
+        "top_indicators": [
+          "The student struggles significantly with academic coursework."
+        ],
+        "domain_scores": {
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          }
+        },
+        "all_shap_values": [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.",
+        "llm_guidance": "",
+        "retrieved_context": "create this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]",
+        "verification": {
+          "is_valid": true,
+          "issues": [],
+          "cleaned_suggestion": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-09T17:07:56.278765+00:00",
+      "_id": "dde278e5-8361-448a-b19d-8b9ed13e6d4f"
+    },
+    {
+      "student_name": "ffc",
+      "student_id": "cz",
+      "programme": "csa",
+      "assessment_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 26.7,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6
+      },
+      "xai": {
+        "top_indicators": [
+          "The student struggles significantly with academic coursework."
+        ],
+        "domain_scores": {
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          }
+        },
+        "all_shap_values": [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.",
+        "llm_guidance": "",
+        "retrieved_context": "create this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]",
+        "verification": {
+          "is_valid": true,
+          "issues": [],
+          "cleaned_suggestion": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-09T17:11:04.687407+00:00",
+      "_id": "e7598314-84dc-40e1-a426-ef0629fde80b"
+    },
+    {
+      "student_name": "has",
+      "student_id": "456",
+      "programme": "hjk",
+      "assessment_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 26.7,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6
+      },
+      "xai": {
+        "top_indicators": [
+          "The student struggles significantly with academic coursework."
+        ],
+        "domain_scores": {
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          }
+        },
+        "all_shap_values": [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.",
+        "llm_guidance": "",
+        "retrieved_context": "create this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]",
+        "verification": {
+          "is_valid": true,
+          "issues": [],
+          "cleaned_suggestion": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-09T17:22:11.541371+00:00",
+      "_id": "81da5052-f4e3-458f-a6fe-c70e7fc52fbd"
+    },
+    {
+      "student_name": "yubchjdc",
+      "student_id": "yu",
+      "programme": "data",
+      "assessment_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 26.7,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6
+      },
+      "xai": {
+        "top_indicators": [
+          "The student struggles significantly with academic coursework."
+        ],
+        "domain_scores": {
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          }
+        },
+        "all_shap_values": [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.",
+        "llm_guidance": "",
+        "retrieved_context": "create this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]",
+        "verification": {
+          "is_valid": true,
+          "issues": [],
+          "cleaned_suggestion": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-09T17:26:13.320845+00:00",
+      "_id": "41e5738e-21d5-4659-a88a-813dcddde4a1"
+    },
+    {
+      "student_name": "nal",
+      "student_id": "mal",
+      "programme": "data",
+      "assessment_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 26.7,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6
+      },
+      "xai": {
+        "top_indicators": [
+          "The student struggles significantly with academic coursework."
+        ],
+        "domain_scores": {
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          }
+        },
+        "all_shap_values": [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.",
+        "llm_guidance": "",
+        "retrieved_context": "create this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]",
+        "verification": {
+          "is_valid": true,
+          "issues": [],
+          "cleaned_suggestion": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-09T17:29:33.760137+00:00",
+      "_id": "b3969ea8-f42a-490e-bff5-38c9f82e9133"
+    },
+    {
+      "student_name": "huj",
+      "student_id": "huj",
+      "programme": "data",
+      "assessment_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 26.7,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6
+      },
+      "xai": {
+        "top_indicators": [
+          "The student struggles significantly with academic coursework."
+        ],
+        "domain_scores": {
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          }
+        },
+        "all_shap_values": [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.",
+        "llm_guidance": "",
+        "retrieved_context": "create this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]",
+        "verification": {
+          "is_valid": true,
+          "issues": [],
+          "cleaned_suggestion": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-09T17:35:01.522892+00:00",
+      "_id": "41c899bf-c56c-429f-b5a7-68179b9dd4ba"
+    },
+    {
+      "student_name": "cdas",
+      "student_id": "ca",
+      "programme": "csa",
+      "assessment_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 26.7,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6
+      },
+      "xai": {
+        "top_indicators": [
+          "The student struggles significantly with academic coursework."
+        ],
+        "domain_scores": {
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          }
+        },
+        "all_shap_values": [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.",
+        "llm_guidance": "",
+        "retrieved_context": "create this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]",
+        "verification": {
+          "is_valid": true,
+          "issues": [],
+          "cleaned_suggestion": "[Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies.\n\n[Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the PA dimension of burnout [33]. This result comes as a surprise to established wisdom, as additional professional support should correlate positively with reduced stress and, by extension, burnout [40,41]\n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-09T17:48:56.336809+00:00",
+      "_id": "3bf73739-c385-489c-8eed-15b1e54e4eac"
+    }
+  ],
+  "feedback_sessions": [
+    {
+      "student_name": "A",
+      "student_id": "S100",
+      "programme": "CSE",
+      "assessment_session_id": "assess1",
+      "feedback_request_token": "ae3dc46e25364d0d8423b2f0a0743506",
+      "mentor_email": "mentor@example.com",
+      "improvement_status": "improved",
+      "support_helpfulness": "helpful",
+      "follow_up_needed": false,
+      "student_feedback_summary": "Feeling better after mentor check-ins.",
+      "mentor_follow_up_notes": "",
+      "submitted_by": "student",
+      "stage": "Post-Intervention Feedback",
+      "created_at": "2026-04-09T16:14:13.429551+00:00",
+      "_id": "b6d11047-e0da-4268-a3b1-28b1563aa2a5"
+    }
+  ],
+  "feedback_requests": [
+    {
+      "token": "ae3dc46e25364d0d8423b2f0a0743506",
+      "student_name": "A",
+      "student_id": "S100",
+      "programme": "CSE",
+      "assessment_session_id": "assess1",
+      "mentor_email": "mentor@example.com",
+      "status": "completed",
+      "created_at": "2026-04-09T16:14:03.479187+00:00",
+      "completed_at": "2026-04-09T16:14:13.438353+00:00",
+      "_id": "44529d21-edbf-4ebe-a6e8-ab16debbdf7e"
+    },
+    {
+      "token": "e8d3e988e29942658a958320eef8a52a",
+      "student_name": "ca",
+      "student_id": "ca",
+      "programme": "cda",
+      "assessment_session_id": "14190cf1-525d-4237-808d-c0f866cd8086",
+      "mentor_email": "jave@gmail.com",
+      "status": "pending",
+      "created_at": "2026-04-09T16:16:59.295079+00:00",
+      "completed_at": "",
+      "_id": "03679ab1-c4c6-4ebf-b9e9-800f62326da1"
+    },
+    {
+      "token": "322aaaefa962408c861560ee855f3832",
+      "student_name": "cr",
+      "student_id": "gt",
+      "student_email": "22501a4436@pvpsit.ac.in",
+      "programme": "fce",
+      "assessment_session_id": "bfb3fb7c-def3-4ad1-8e15-89a326dba92e",
+      "mentor_email": "jave@gmail.com",
+      "status": "pending",
+      "created_at": "2026-04-09T16:34:01.750660+00:00",
+      "completed_at": "",
+      "_id": "fe1662d3-76aa-46b5-a11d-2ae525e7b322"
+    },
+    {
+      "token": "364ba7e47357485bbafb5eca4867acc2",
+      "student_name": "Jave",
+      "student_id": "S100",
+      "student_email": "student@example.com",
+      "programme": "CSE",
+      "assessment_session_id": "demo-session",
+      "mentor_email": "mentor@gmail.com",
+      "mentor_sender_email": "mentor@gmail.com",
+      "status": "pending",
+      "created_at": "2026-04-09T16:48:24.073008+00:00",
+      "completed_at": "",
+      "_id": "631fcbf2-1a1e-41e6-8878-02d33ba1353f"
+    },
+    {
+      "token": "d90281de255c471192fc427cf90bbc20",
+      "student_name": "Jave",
+      "student_id": "S100",
+      "student_email": "student@example.com",
+      "programme": "CSE",
+      "assessment_session_id": "demo-session",
+      "mentor_email": "mentor@example.com",
+      "status": "pending",
+      "created_at": "2026-04-09T17:20:09.537943+00:00",
+      "completed_at": "",
+      "_id": "bde5ca94-3166-41fc-b522-225bf30922fc"
+    },
+    {
+      "token": "21e7aa44bb594b9fb384b22cd9179f2f",
+      "student_name": "has",
+      "student_id": "456",
+      "student_email": "22501a4436@pvpsit.ac.in",
+      "programme": "hjk",
+      "assessment_session_id": "81da5052-f4e3-458f-a6fe-c70e7fc52fbd",
+      "mentor_email": "udaysrinivas52@gmail.com",
+      "status": "pending",
+      "created_at": "2026-04-09T17:22:16.177453+00:00",
+      "completed_at": "",
+      "_id": "de0ff092-1f53-472c-a1b8-d1b2f08e8006"
+    },
+    {
+      "token": "d341c6e8ac844014b3213cc3ac2b8a6c",
+      "student_name": "yubchjdc",
+      "student_id": "yu",
+      "student_email": "22501a4436@pvpsit.ac.in",
+      "programme": "data",
+      "assessment_session_id": "41e5738e-21d5-4659-a88a-813dcddde4a1",
+      "mentor_email": "udaysrinivas52@gmail.com",
+      "status": "pending",
+      "created_at": "2026-04-09T17:26:17.351952+00:00",
+      "completed_at": "",
+      "_id": "0c095c5e-eb2c-4b22-8a87-04628a6751d1"
+    },
+    {
+      "token": "c89b78ca212741aaa67c6ad29512c593",
+      "student_name": "nal",
+      "student_id": "mal",
+      "student_email": "22501a4436@pvpsit.ac.in",
+      "programme": "data",
+      "assessment_session_id": "b3969ea8-f42a-490e-bff5-38c9f82e9133",
+      "mentor_email": "udaysrinivas52@gmail.com",
+      "status": "pending",
+      "created_at": "2026-04-09T17:29:38.288271+00:00",
+      "completed_at": "",
+      "_id": "c529b5dd-acda-4323-afc3-81736837d828"
+    },
+    {
+      "token": "4d1ad099346d484abc98a723fe425543",
+      "student_name": "huj",
+      "student_id": "huj",
+      "student_email": "22501a4436@pvpsit.ac.in",
+      "programme": "data",
+      "assessment_session_id": "41c899bf-c56c-429f-b5a7-68179b9dd4ba",
+      "mentor_email": "udaysrinivas52@gmail.com",
+      "status": "pending",
+      "created_at": "2026-04-09T17:35:04.512933+00:00",
+      "completed_at": "",
+      "_id": "66a9952f-06d0-4e4e-b69f-15a6ceb7ef2f"
+    },
+    {
+      "token": "81795424e15b41a4b19b990341acfcd2",
+      "student_name": "Jave",
+      "student_id": "S100",
+      "student_email": "student@example.com",
+      "programme": "CSE",
+      "assessment_session_id": "demo-session",
+      "mentor_email": "mentor@example.com",
+      "status": "pending",
+      "created_at": "2026-04-09T17:47:00.541062+00:00",
+      "completed_at": "",
+      "_id": "97b370fa-5eca-4e16-99e7-a73682d2d906"
+    },
+    {
+      "token": "1b0448d40f1a4b3290c279d0243ed42f",
+      "student_name": "cdas",
+      "student_id": "ca",
+      "student_email": "22501a4436@pvpsit.ac.in",
+      "programme": "csa",
+      "assessment_session_id": "3bf73739-c385-489c-8eed-15b1e54e4eac",
+      "mentor_email": "udaysrinivas52@gmail.com",
+      "status": "pending",
+      "created_at": "2026-04-09T17:48:59.715077+00:00",
+      "completed_at": "",
+      "_id": "bd98c0f3-3dbf-4da5-b182-08a5acc4321f"
+    }
+  ],
+  "users": [
+    {
+      "email": "jave@gmail.com",
+      "password_hash": "$2b$12$TfnaMumGFZBHFVtGYh8MfuJC/lSBlU4jtMcTDD4yQKRkIoE/86uOS",
+      "name": "jave",
+      "created_at": "2026-04-09T16:16:12.210329+00:00",
+      "_id": "645f382e-6123-48a0-840f-a04bb636e0aa"
+    }
+  ]
+}
