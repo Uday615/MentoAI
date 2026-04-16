@@ -143,11 +143,43 @@ class MentorRAG:
         elif _LANGCHAIN_AVAILABLE:
             print(f"[RAG] Vector DB not found at {vector_db_path}. Using knowledge base only.")
 
-    def _retrieve_context(self, risk_level: str, indicators: List[str], top_k: int = 3) -> str:
+    def _rank_domains(self, domain_scores: Dict) -> List[Dict]:
+        ranked = []
+        for domain, data in domain_scores.items():
+            if not isinstance(data, dict):
+                continue
+            avg_input = float(data.get("avg_input", 0) or 0)
+            shap_sum = float(data.get("shap_sum", 0) or 0)
+            severity = "high" if avg_input >= 4.2 else "moderate" if avg_input >= 3.2 else "low"
+            ranking_score = avg_input + max(shap_sum, 0)
+            ranked.append(
+                {
+                    "domain": domain,
+                    "avg_input": round(avg_input, 2),
+                    "shap_sum": round(shap_sum, 4),
+                    "severity": severity,
+                    "ranking_score": ranking_score,
+                }
+            )
+        ranked.sort(key=lambda item: item["ranking_score"], reverse=True)
+        return ranked
+
+    def _retrieve_context(
+        self,
+        risk_level: str,
+        indicators: List[str],
+        ranked_domains: Optional[List[Dict]] = None,
+        top_k: int = 3,
+    ) -> str:
         if not self.vectorstore:
             return ""
         try:
-            query = f"Mentor intervention strategies for student with {risk_level} showing: {', '.join(indicators)}"
+            domain_text = ", ".join(item["domain"] for item in (ranked_domains or [])[:3])
+            indicator_text = ", ".join(indicators[:5]) if indicators else "general distress indicators"
+            query = (
+                f"Mentor intervention strategies for {risk_level} student distress with domains: "
+                f"{domain_text or 'general distress'} and indicators: {indicator_text}"
+            )
             docs = self.vectorstore.similarity_search(query, k=top_k)
             chunks = []
             for doc in docs:
@@ -158,31 +190,100 @@ class MentorRAG:
             print(f"[RAG] Retrieval error: {e}")
             return ""
 
-    def _build_knowledge_guidance(self, risk_level: str, domain_scores: Dict) -> str:
+    def _build_case_profile(
+        self,
+        risk_level: str,
+        key_indicators: List[str],
+        domain_scores: Dict,
+        feature_attributions: Optional[List[Dict]] = None,
+    ) -> Dict:
+        ranked_domains = self._rank_domains(domain_scores)
+        strongest_domains = ranked_domains[:3]
+        top_features = []
+        for feature in feature_attributions or []:
+            if feature.get("input_value", 0) >= 4:
+                top_features.append(feature.get("feature", ""))
+            if len(top_features) >= 4:
+                break
+        if not top_features:
+            top_features = key_indicators[:4]
+
+        immediate_flags = []
+        if risk_level == "High Risk":
+            immediate_flags.append("Escalate same day if the student remains unreachable or visibly deteriorating.")
+        if any(item["domain"] == "Emotional Exhaustion" and item["severity"] == "high" for item in strongest_domains):
+            immediate_flags.append("Prioritize an emotionally safe check-in and rapid referral to approved support channels.")
+        if any(item["domain"] == "Behavioral Withdrawal" and item["severity"] != "low" for item in strongest_domains):
+            immediate_flags.append("Do not wait for the student to re-initiate contact; outreach should be proactive.")
+
+        return {
+            "risk_level": risk_level,
+            "ranked_domains": ranked_domains,
+            "strongest_domains": strongest_domains,
+            "top_features": [item for item in top_features if item],
+            "immediate_flags": immediate_flags,
+            "key_indicators": key_indicators[:5],
+        }
+
+    def _build_case_summary(self, case_profile: Dict) -> str:
+        domain_bits = [
+            f"{item['domain']} ({item['severity']}, avg {item['avg_input']}/5)"
+            for item in case_profile["strongest_domains"]
+        ]
+        indicator_bits = case_profile["top_features"] or case_profile["key_indicators"]
+        parts = [
+            f"Current case pattern: {case_profile['risk_level']}.",
+            f"Strongest contributing domains: {', '.join(domain_bits) if domain_bits else 'no strong domain pattern identified'}.",
+            f"Most relevant observed indicators: {', '.join(indicator_bits) if indicator_bits else 'general distress indicators'}.",
+        ]
+        if case_profile["immediate_flags"]:
+            parts.append(f"Escalation flags: {' '.join(case_profile['immediate_flags'])}")
+        return "\n".join(parts)
+
+    def _build_dynamic_action_plan(self, risk_level: str, case_profile: Dict) -> str:
         level_key = risk_level.lower().replace(" risk", "")
-        sorted_domains = sorted(
-            domain_scores.items(),
-            key=lambda item: item[1].get("shap_sum", 0) if isinstance(item[1], dict) else 0,
-            reverse=True,
+        strongest_domains = case_profile["strongest_domains"]
+        domain_actions = []
+        for item in strongest_domains:
+            domain = item["domain"]
+            domain_guidance = EVIDENCE_KNOWLEDGE_BASE.get(domain, {}).get(level_key, "")
+            if not domain_guidance:
+                continue
+            modifier = {
+                "high": "Treat this as a primary focus in the next mentor contact.",
+                "moderate": "Address this directly in the next scheduled mentor meeting.",
+                "low": "Keep this under routine observation while reinforcing protective factors.",
+            }.get(item["severity"], "")
+            domain_actions.append(f"[{domain}] {domain_guidance} {modifier}".strip())
+
+        priority_features = case_profile["top_features"][:3]
+        if priority_features:
+            feature_line = (
+                "Focus the conversation on these concrete observations: "
+                + "; ".join(priority_features)
+                + "."
+            )
+        else:
+            feature_line = "Focus the conversation on the student’s current academic, emotional, and support barriers."
+
+        coordination_line = {
+            "High Risk": "Coordinate quickly with approved student support or welfare pathways and document the mentor response.",
+            "Moderate Risk": "Agree on one short-term support plan, one check-in date, and one escalation trigger if the student worsens.",
+            "Low Risk": "Use a light-touch support plan with one clear follow-up check and reinforce existing support resources.",
+        }.get(risk_level, "Maintain regular mentor contact and review the case again in the next cycle.")
+
+        if not domain_actions:
+            domain_actions.append(coordination_line)
+
+        return "\n\n".join(
+            [
+                self._build_case_summary(case_profile),
+                "Recommended mentor actions:",
+                "\n".join(f"- {item}" for item in domain_actions),
+                feature_line,
+                coordination_line,
+            ]
         )
-        top_domains = [domain for domain, _ in sorted_domains[:2]]
-
-        guidance_parts = []
-        for domain in top_domains:
-            if domain in EVIDENCE_KNOWLEDGE_BASE:
-                domain_guidance = EVIDENCE_KNOWLEDGE_BASE[domain].get(level_key, "")
-                if domain_guidance:
-                    guidance_parts.append(f"[{domain}] {domain_guidance}")
-
-        if not guidance_parts:
-            fallback = {
-                "high": "Urgent mentor action: schedule a one-on-one meeting immediately, refer the student to appropriate university support services, and document the escalation.",
-                "moderate": "Action required: schedule a mentor meeting this week, discuss current stressors, and monitor the student closely over the next week.",
-                "low": "Routine monitoring: continue standard observation, maintain regular contact, and repeat screening in the next cycle.",
-            }
-            guidance_parts.append(fallback.get(level_key, "Monitor the student and maintain regular contact."))
-
-        return "\n\n".join(guidance_parts)
 
     def _generate_with_ollama(
         self,
@@ -190,6 +291,7 @@ class MentorRAG:
         key_indicators: List[str],
         knowledge_guidance: str,
         retrieved_context: str,
+        case_summary: str,
     ) -> str:
         if not self.ollama_model:
             return ""
@@ -200,6 +302,7 @@ class MentorRAG:
             "Use only the supplied risk level, indicators, and context to write 2 short mentor-action paragraphs.\n\n"
             f"Risk Level: {risk_level}\n"
             f"Indicators: {', '.join(key_indicators) if key_indicators else 'General distress indicators'}\n\n"
+            f"Case Summary:\n{case_summary}\n\n"
             f"Grounded Guidance:\n{knowledge_guidance}\n\n"
             f"Retrieved Context:\n{retrieved_context or 'No retrieved context available.'}\n\n"
             "Return mentor-facing actions only."
@@ -233,17 +336,30 @@ class MentorRAG:
         risk_level: str,
         key_indicators: List[str],
         domain_scores: Optional[Dict] = None,
+        feature_attributions: Optional[List[Dict]] = None,
     ) -> Dict:
         if domain_scores is None:
             domain_scores = {}
 
-        retrieved_context = self._retrieve_context(risk_level, key_indicators)
-        knowledge_guidance = self._build_knowledge_guidance(risk_level, domain_scores)
+        case_profile = self._build_case_profile(
+            risk_level=risk_level,
+            key_indicators=key_indicators,
+            domain_scores=domain_scores,
+            feature_attributions=feature_attributions,
+        )
+        case_summary = self._build_case_summary(case_profile)
+        knowledge_guidance = self._build_dynamic_action_plan(risk_level, case_profile)
+        retrieved_context = self._retrieve_context(
+            risk_level,
+            key_indicators,
+            ranked_domains=case_profile["ranked_domains"],
+        )
         ollama_guidance = self._generate_with_ollama(
             risk_level=risk_level,
             key_indicators=key_indicators,
             knowledge_guidance=knowledge_guidance,
             retrieved_context=retrieved_context,
+            case_summary=case_summary,
         )
 
         suggestion_parts = []
@@ -266,6 +382,7 @@ class MentorRAG:
             "suggested_action": verification["cleaned_suggestion"],
             "monitoring_recommendation": MONITORING_RECOMMENDATIONS.get(risk_level, ""),
             "retrieved_context": retrieved_context[:300] if retrieved_context else "",
+            "case_summary": case_summary,
             "knowledge_guidance": knowledge_guidance,
             "llm_guidance": ollama_guidance,
             "verification": verification,

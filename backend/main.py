@@ -791,6 +791,7 @@ def stage2_predict(payload: AssessmentInput):
                 risk_level=risk_label,
                 key_indicators=xai_result["top_indicators"],
                 domain_scores=xai_result["domain_scores"],
+                feature_attributions=xai_result.get("feature_attributions", []),
             )
         except Exception as e:
             print(f"[Backend] RAG error: {e}")
@@ -822,6 +823,7 @@ def stage2_predict(payload: AssessmentInput):
         "rag": {
             "suggested_action":          rag_result["suggested_action"],
             "monitoring_recommendation": rag_result["monitoring_recommendation"],
+            "case_summary":              rag_result.get("case_summary", ""),
             "knowledge_guidance":        rag_result.get("knowledge_guidance", ""),
             "llm_guidance":              rag_result.get("llm_guidance", ""),
             "retrieved_context":         rag_result.get("retrieved_context", ""),

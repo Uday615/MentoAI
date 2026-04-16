@@ -458,6 +458,210 @@
       "stage": "Stage 1 - Weekly Screening",
       "created_at": "2026-04-09T17:48:43.874657+00:00",
       "_id": "31ce358d-9649-4aac-b898-ce1314cabb62"
+    },
+    {
+      "student_name": "uday",
+      "student_id": "22501a4436",
+      "screening_answers": [
+        4,
+        4,
+        4,
+        2,
+        4,
+        2,
+        4,
+        4,
+        4,
+        4
+      ],
+      "risk_label": "High Risk",
+      "risk_class": 2,
+      "total_score": 36,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 4.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.33,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 4.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 4.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 4.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-10T05:54:45.659671+00:00",
+      "_id": "fb66528b-9470-4177-a261-f8a89afb574e"
+    },
+    {
+      "student_name": "haka",
+      "student_id": "36",
+      "screening_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 30,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.0,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 3.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-11T03:23:42.706649+00:00",
+      "_id": "4e122b20-7701-407a-952e-9d65dc32a3bb"
+    },
+    {
+      "student_name": "Ajay",
+      "student_id": "23501A4245",
+      "screening_answers": [
+        2,
+        2,
+        4,
+        3,
+        2,
+        3,
+        4,
+        4,
+        2,
+        5
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 31,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 2.5,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 2.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.67,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 2.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 4.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 5.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-11T03:51:17.821165+00:00",
+      "_id": "8a7cdda3-aefb-4187-8fea-56c85f82bfb4"
+    },
+    {
+      "student_name": "hala",
+      "student_id": "uday",
+      "screening_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "total_score": 30,
+      "max_score": 50,
+      "proceed_to_stage2": true,
+      "triage_message": "Proceed to detailed 25-item assessment for a full ML-based analysis.",
+      "domain_summary": {
+        "Emotional Exhaustion": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Motivation Decline": {
+          "avg": 3.0,
+          "count": 2
+        },
+        "Behavioral Withdrawal": {
+          "avg": 3.0,
+          "count": 3
+        },
+        "Sleep Disruption": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Academic Stress": {
+          "avg": 3.0,
+          "count": 1
+        },
+        "Support Availability": {
+          "avg": 3.0,
+          "count": 1
+        }
+      },
+      "stage": "Stage 1 - Weekly Screening",
+      "created_at": "2026-04-12T11:23:28.239841+00:00",
+      "_id": "53696726-e241-4cc4-bf00-8571b4d51a75"
     }
   ],
   "assessment_sessions": [
@@ -1738,6 +1942,584 @@
       "stage": "Stage 2 - Detailed ML Assessment",
       "created_at": "2026-04-09T17:48:56.336809+00:00",
       "_id": "3bf73739-c385-489c-8eed-15b1e54e4eac"
+    },
+    {
+      "student_name": "uday",
+      "student_id": "22501a4436",
+      "programme": "data science",
+      "assessment_answers": [
+        4,
+        2,
+        4,
+        4,
+        2,
+        1,
+        1,
+        1,
+        4,
+        2,
+        4,
+        4,
+        2,
+        4,
+        2,
+        4,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        2,
+        4,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 27.415,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6161
+      },
+      "xai": {
+        "top_indicators": [
+          "The student frequently appears stressed, tense, or irritated.",
+          "The student lacks confidence in their academic subject areas.",
+          "The student shows signs of overthinking or cognitive rumination."
+        ],
+        "domain_scores": {
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": 1.0267,
+            "avg_input": 3.33,
+            "risk_contribution": 1.0267
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": -0.017,
+            "avg_input": 4.0,
+            "risk_contribution": -0.017
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": -0.1036,
+            "avg_input": 3.25,
+            "risk_contribution": -0.1036
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": -0.3503,
+            "avg_input": 2.67,
+            "risk_contribution": -0.3503
+          },
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": -0.8218,
+            "avg_input": 3.33,
+            "risk_contribution": -0.8218
+          },
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": -0.834,
+            "avg_input": 3.2,
+            "risk_contribution": -0.834
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": -0.8512,
+            "avg_input": 1.0,
+            "risk_contribution": -0.8512
+          }
+        },
+        "all_shap_values": [
+          0.1346,
+          -0.8179,
+          -0.3999,
+          -0.1219,
+          0.3711,
+          -0.0,
+          -0.0,
+          -0.8512,
+          0.7422,
+          0.4723,
+          -0.1878,
+          -0.3078,
+          -1.16,
+          0.646,
+          0.5936,
+          -0.1219,
+          -0.8221,
+          -0.3812,
+          -0.0157,
+          0.3956,
+          -0.0157,
+          -0.1006,
+          0.3782,
+          -0.3812,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "Current case pattern: Moderate Risk.\nStrongest contributing domains: Emotional Exhaustion (moderate, avg 3.33/5), Behavioral Withdrawal (moderate, avg 4.0/5), Motivation Decline (moderate, avg 3.33/5).\nMost relevant observed indicators: The student frequently appears stressed, tense, or irritated., The student lacks confidence in their academic subject areas., The student frequently requests extensions for deadlines., The student rarely initiates conversations or interactions..\nEscalation flags: Do not wait for the student to re-initiate contact; outreach should be proactive.\n\nRecommended mentor actions:\n\n- [Emotional Exhaustion] Create a safe, non-judgmental space for the student to express stress. Explore sources of exhaustion. Signpost to counselling or peer support services. Address this directly in the next scheduled mentor meeting.\n- [Behavioral Withdrawal] Proactively reach out and do not wait for the student to initiate contact. Gently address noted withdrawal and explore barriers to engagement. Encourage peer connection. Address this directly in the next scheduled mentor meeting.\n- [Motivation Decline] Use motivational interviewing techniques to explore the student's goals and reconnect them to their academic purpose. Set short-term, achievable milestones together. Address this directly in the next scheduled mentor meeting.\n\nFocus the conversation on these concrete observations: The student frequently appears stressed, tense, or irritated.; The student lacks confidence in their academic subject areas.; The student frequently requests extensions for deadlines..\n\nAgree on one short-term support plan, one check-in date, and one escalation trigger if the student worsens.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\nresponsibility may not be deliverable. Perhaps student-guided mentorship programs may offer a more readily deliverable source of support and promote positive strategies for coping with burnout [42], as senior healthcare students can more easily relate to challenges encountered by junior students in \n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "Current case pattern: Moderate Risk.\nStrongest contributing domains: Emotional Exhaustion (moderate, avg 3.33/5), Behavioral Withdrawal (moderate, avg 4.0/5), Motivation Decline (moderate, avg 3.33/5).\nMost relevant observed indicators: The student frequently appears stressed, tense, or irritated., The student lacks confidence in their academic subject areas., The student frequently requests extensions for deadlines., The student rarely initiates conversations or interactions..\nEscalation flags: Do not wait for the student to re-initiate contact; outreach should be proactive.\n\nRecommended mentor actions:\n\n- [Emotional Exhaustion] Create a safe, non-judgmental space for the student to express stress. Explore sources of exhaustion. Signpost to counselling or peer support services. Address this directly in the next scheduled mentor meeting.\n- [Behavioral Withdrawal] Proactively reach out and do not wait for the student to initiate contact. Gently address noted withdrawal and explore barriers to engagement. Encourage peer connection. Address this directly in the next scheduled mentor meeting.\n- [Motivation Decline] Use motivational interviewing techniques to explore the student's goals and reconnect them to their academic purpose. Set short-term, achievable milestones together. Address this directly in the next scheduled mentor meeting.\n\nFocus the conversation on these concrete observations: The student frequently appears stressed, tense, or irritated.; The student lacks confidence in their academic subject areas.; The student frequently requests extensions for deadlines..\n\nAgree on one short-term support plan, one check-in date, and one escalation trigger if the student worsens.",
+        "llm_guidance": "",
+        "retrieved_context": "responsibility may not be deliverable. Perhaps student-guided mentorship programs may offer a more readily deliverable source of support and promote positive strategies for coping with burnout [42], as senior healthcare students can more easily relate to challenges encountered by junior students in ",
+        "verification": {
+          "is_valid": false,
+          "issues": [
+            "Action terms expected for Moderate Risk: discuss"
+          ],
+          "cleaned_suggestion": "Current case pattern: Moderate Risk.\nStrongest contributing domains: Emotional Exhaustion (moderate, avg 3.33/5), Behavioral Withdrawal (moderate, avg 4.0/5), Motivation Decline (moderate, avg 3.33/5).\nMost relevant observed indicators: The student frequently appears stressed, tense, or irritated., The student lacks confidence in their academic subject areas., The student frequently requests extensions for deadlines., The student rarely initiates conversations or interactions..\nEscalation flags: Do not wait for the student to re-initiate contact; outreach should be proactive.\n\nRecommended mentor actions:\n\n- [Emotional Exhaustion] Create a safe, non-judgmental space for the student to express stress. Explore sources of exhaustion. Signpost to counselling or peer support services. Address this directly in the next scheduled mentor meeting.\n- [Behavioral Withdrawal] Proactively reach out and do not wait for the student to initiate contact. Gently address noted withdrawal and explore barriers to engagement. Encourage peer connection. Address this directly in the next scheduled mentor meeting.\n- [Motivation Decline] Use motivational interviewing techniques to explore the student's goals and reconnect them to their academic purpose. Set short-term, achievable milestones together. Address this directly in the next scheduled mentor meeting.\n\nFocus the conversation on these concrete observations: The student frequently appears stressed, tense, or irritated.; The student lacks confidence in their academic subject areas.; The student frequently requests extensions for deadlines..\n\nAgree on one short-term support plan, one check-in date, and one escalation trigger if the student worsens.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\nresponsibility may not be deliverable. Perhaps student-guided mentorship programs may offer a more readily deliverable source of support and promote positive strategies for coping with burnout [42], as senior healthcare students can more easily relate to challenges encountered by junior students in \n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-10T05:56:16.464443+00:00",
+      "_id": "3067788a-f02b-46b9-a1fe-4210187f4bd0"
+    },
+    {
+      "student_name": "haka",
+      "student_id": "36",
+      "programme": "data",
+      "assessment_answers": [
+        3,
+        4,
+        2,
+        4,
+        3,
+        5,
+        1,
+        5,
+        5,
+        1,
+        4,
+        5,
+        3,
+        5,
+        3,
+        5,
+        3,
+        5,
+        3,
+        3,
+        1,
+        4,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "High Risk",
+      "risk_class": 2,
+      "hybrid_decision": {
+        "final_class": 2,
+        "rule_class": 2,
+        "ml_class": 1,
+        "conflict": true,
+        "resolution": "Rule-based predicted High Risk, ML predicted Moderate Risk. Conservative conflict resolution: using higher risk (High Risk).",
+        "rule_label": "High Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "High Risk",
+        "weighted_score": 30.8817,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.694
+      },
+      "xai": {
+        "top_indicators": [
+          "The student lacks confidence in their academic subject areas.",
+          "The student is quiet or withdrawn in peer settings.",
+          "The student shows low enthusiasm for learning activities."
+        ],
+        "domain_scores": {
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 1.5015,
+            "avg_input": 4.33,
+            "risk_contribution": 1.5015
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.7445,
+            "avg_input": 3.0,
+            "risk_contribution": 0.7445
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 0.2775,
+            "avg_input": 3.67,
+            "risk_contribution": 0.2775
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": 0.2479,
+            "avg_input": 3.67,
+            "risk_contribution": 0.2479
+          },
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 0.15,
+            "avg_input": 3.2,
+            "risk_contribution": 0.15
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": 0.129,
+            "avg_input": 3.25,
+            "risk_contribution": 0.129
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": -0.1876,
+            "avg_input": 3.33,
+            "risk_contribution": -0.1876
+          }
+        },
+        "all_shap_values": [
+          0.0,
+          0.4405,
+          -0.4293,
+          0.1387,
+          0.0,
+          0.0,
+          -0.0,
+          0.2479,
+          0.4266,
+          -1.039,
+          0.4247,
+          0.6562,
+          0.0,
+          0.8454,
+          0.0,
+          0.2775,
+          0.0,
+          0.7301,
+          -0.0,
+          0.0,
+          0.0144,
+          0.129,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "Current case pattern: High Risk.\nStrongest contributing domains: Motivation Decline (high, avg 4.33/5), Cognitive Overload (moderate, avg 3.67/5), Sleep Disruption (moderate, avg 3.67/5).\nMost relevant observed indicators: The student lacks confidence in their academic subject areas., The student is quiet or withdrawn in peer settings., The student shows low enthusiasm for learning activities., The student appears overwhelmed by responsibilities..\nEscalation flags: Escalate same day if the student remains unreachable or visibly deteriorating.\n\nRecommended mentor actions:\n\n- [Motivation Decline] Initiate a structured goal-setting plan. Liaise with academic staff to explore engagement strategies. Consider referral to a study skills or academic coaching programme. Treat this as a primary focus in the next mentor contact.\n- [Cognitive Overload] Coordinate with the student's teaching team to assess academic demands. Consider a formal workload review. Provide access to study skills coaching and structured task-management support. Address this directly in the next scheduled mentor meeting.\n- [Sleep Disruption] Refer the student to the campus health and wellness centre. Address the sleep issue as an acute concern affecting academic functioning. Follow up within 48 hours. Address this directly in the next scheduled mentor meeting.\n\nFocus the conversation on these concrete observations: The student lacks confidence in their academic subject areas.; The student is quiet or withdrawn in peer settings.; The student shows low enthusiasm for learning activities..\n\nCoordinate quickly with approved student support or welfare pathways and document the mentor response.\n\nMonitoring Recommendation:\nReassess within 3-5 days after initial intervention. Maintain daily informal contact. Escalate if the student's risk does not reduce within one week.\n\nRetrieved Context:\nresponsibility may not be deliverable. Perhaps student-guided mentorship programs may offer a more readily deliverable source of support and promote positive strategies for coping with burnout [42], as senior healthcare students can more easily relate to challenges encountered by junior students in \n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Reassess within 3-5 days after initial intervention. Maintain daily informal contact. Escalate if the student's risk does not reduce within one week.",
+        "knowledge_guidance": "Current case pattern: High Risk.\nStrongest contributing domains: Motivation Decline (high, avg 4.33/5), Cognitive Overload (moderate, avg 3.67/5), Sleep Disruption (moderate, avg 3.67/5).\nMost relevant observed indicators: The student lacks confidence in their academic subject areas., The student is quiet or withdrawn in peer settings., The student shows low enthusiasm for learning activities., The student appears overwhelmed by responsibilities..\nEscalation flags: Escalate same day if the student remains unreachable or visibly deteriorating.\n\nRecommended mentor actions:\n\n- [Motivation Decline] Initiate a structured goal-setting plan. Liaise with academic staff to explore engagement strategies. Consider referral to a study skills or academic coaching programme. Treat this as a primary focus in the next mentor contact.\n- [Cognitive Overload] Coordinate with the student's teaching team to assess academic demands. Consider a formal workload review. Provide access to study skills coaching and structured task-management support. Address this directly in the next scheduled mentor meeting.\n- [Sleep Disruption] Refer the student to the campus health and wellness centre. Address the sleep issue as an acute concern affecting academic functioning. Follow up within 48 hours. Address this directly in the next scheduled mentor meeting.\n\nFocus the conversation on these concrete observations: The student lacks confidence in their academic subject areas.; The student is quiet or withdrawn in peer settings.; The student shows low enthusiasm for learning activities..\n\nCoordinate quickly with approved student support or welfare pathways and document the mentor response.",
+        "llm_guidance": "",
+        "retrieved_context": "responsibility may not be deliverable. Perhaps student-guided mentorship programs may offer a more readily deliverable source of support and promote positive strategies for coping with burnout [42], as senior healthcare students can more easily relate to challenges encountered by junior students in ",
+        "verification": {
+          "is_valid": false,
+          "issues": [
+            "Action terms expected for High Risk: immediate, urgent"
+          ],
+          "cleaned_suggestion": "Current case pattern: High Risk.\nStrongest contributing domains: Motivation Decline (high, avg 4.33/5), Cognitive Overload (moderate, avg 3.67/5), Sleep Disruption (moderate, avg 3.67/5).\nMost relevant observed indicators: The student lacks confidence in their academic subject areas., The student is quiet or withdrawn in peer settings., The student shows low enthusiasm for learning activities., The student appears overwhelmed by responsibilities..\nEscalation flags: Escalate same day if the student remains unreachable or visibly deteriorating.\n\nRecommended mentor actions:\n\n- [Motivation Decline] Initiate a structured goal-setting plan. Liaise with academic staff to explore engagement strategies. Consider referral to a study skills or academic coaching programme. Treat this as a primary focus in the next mentor contact.\n- [Cognitive Overload] Coordinate with the student's teaching team to assess academic demands. Consider a formal workload review. Provide access to study skills coaching and structured task-management support. Address this directly in the next scheduled mentor meeting.\n- [Sleep Disruption] Refer the student to the campus health and wellness centre. Address the sleep issue as an acute concern affecting academic functioning. Follow up within 48 hours. Address this directly in the next scheduled mentor meeting.\n\nFocus the conversation on these concrete observations: The student lacks confidence in their academic subject areas.; The student is quiet or withdrawn in peer settings.; The student shows low enthusiasm for learning activities..\n\nCoordinate quickly with approved student support or welfare pathways and document the mentor response.\n\nMonitoring Recommendation:\nReassess within 3-5 days after initial intervention. Maintain daily informal contact. Escalate if the student's risk does not reduce within one week.\n\nRetrieved Context:\nresponsibility may not be deliverable. Perhaps student-guided mentorship programs may offer a more readily deliverable source of support and promote positive strategies for coping with burnout [42], as senior healthcare students can more easily relate to challenges encountered by junior students in \n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-11T03:24:26.843747+00:00",
+      "_id": "75f6ee0b-5b23-4765-a1bf-bc31a6dc12eb"
+    },
+    {
+      "student_name": "Ajay",
+      "student_id": "23501A4245",
+      "programme": "BTech",
+      "assessment_answers": [
+        2,
+        4,
+        2,
+        2,
+        2,
+        4,
+        4,
+        2,
+        3,
+        4,
+        3,
+        2,
+        4,
+        4,
+        2,
+        2,
+        4,
+        2,
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        4
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 29.1383,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6548
+      },
+      "xai": {
+        "top_indicators": [
+          "The student demonstrates low motivation to achieve their goals.",
+          "The student is nervous or anxious when speaking publicly.",
+          "The student appears overwhelmed by responsibilities."
+        ],
+        "domain_scores": {
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 2.1138,
+            "avg_input": 3.33,
+            "risk_contribution": 2.1138
+          },
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 1.5762,
+            "avg_input": 2.4,
+            "risk_contribution": 1.5762
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 1.5376,
+            "avg_input": 2.67,
+            "risk_contribution": 1.5376
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.7455,
+            "avg_input": 3.5,
+            "risk_contribution": 0.7455
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": -0.1959,
+            "avg_input": 4.25,
+            "risk_contribution": -0.1959
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": -0.4256,
+            "avg_input": 3.33,
+            "risk_contribution": -0.4256
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": -0.4723,
+            "avg_input": 3.33,
+            "risk_contribution": -0.4723
+          }
+        },
+        "all_shap_values": [
+          -0.1346,
+          0.8179,
+          0.3999,
+          0.1219,
+          0.3711,
+          0.0,
+          0.0,
+          -0.4256,
+          0.0,
+          -0.4723,
+          -0.0,
+          0.3078,
+          1.16,
+          0.646,
+          0.5936,
+          0.1219,
+          0.8221,
+          0.3812,
+          -0.0157,
+          0.3956,
+          -0.0157,
+          -0.2012,
+          -0.3782,
+          -0.3812,
+          0.7647
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "Current case pattern: Moderate Risk.\nStrongest contributing domains: Motivation Decline (moderate, avg 3.33/5), Support Availability (high, avg 4.25/5), Behavioral Withdrawal (moderate, avg 3.5/5).\nMost relevant observed indicators: The student demonstrates low motivation to achieve their goals., The student is nervous or anxious when speaking publicly., The student appears overwhelmed by responsibilities., The student shows low confidence in overcoming personal challenges..\nEscalation flags: Do not wait for the student to re-initiate contact; outreach should be proactive.\n\nRecommended mentor actions:\n\n- [Motivation Decline] Use motivational interviewing techniques to explore the student's goals and reconnect them to their academic purpose. Set short-term, achievable milestones together. Address this directly in the next scheduled mentor meeting.\n- [Support Availability] Explore the student's support network. Discuss barriers to seeking help. Connect them with relevant peer mentoring or student support services. Treat this as a primary focus in the next mentor contact.\n- [Behavioral Withdrawal] Proactively reach out and do not wait for the student to initiate contact. Gently address noted withdrawal and explore barriers to engagement. Encourage peer connection. Address this directly in the next scheduled mentor meeting.\n\nFocus the conversation on these concrete observations: The student demonstrates low motivation to achieve their goals.; The student is nervous or anxious when speaking publicly.; The student appears overwhelmed by responsibilities..\n\nAgree on one short-term support plan, one check-in date, and one escalation trigger if the student worsens.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\nresponsibility may not be deliverable. Perhaps student-guided mentorship programs may offer a more readily deliverable source of support and promote positive strategies for coping with burnout [42], as senior healthcare students can more easily relate to challenges encountered by junior students in \n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "Current case pattern: Moderate Risk.\nStrongest contributing domains: Motivation Decline (moderate, avg 3.33/5), Support Availability (high, avg 4.25/5), Behavioral Withdrawal (moderate, avg 3.5/5).\nMost relevant observed indicators: The student demonstrates low motivation to achieve their goals., The student is nervous or anxious when speaking publicly., The student appears overwhelmed by responsibilities., The student shows low confidence in overcoming personal challenges..\nEscalation flags: Do not wait for the student to re-initiate contact; outreach should be proactive.\n\nRecommended mentor actions:\n\n- [Motivation Decline] Use motivational interviewing techniques to explore the student's goals and reconnect them to their academic purpose. Set short-term, achievable milestones together. Address this directly in the next scheduled mentor meeting.\n- [Support Availability] Explore the student's support network. Discuss barriers to seeking help. Connect them with relevant peer mentoring or student support services. Treat this as a primary focus in the next mentor contact.\n- [Behavioral Withdrawal] Proactively reach out and do not wait for the student to initiate contact. Gently address noted withdrawal and explore barriers to engagement. Encourage peer connection. Address this directly in the next scheduled mentor meeting.\n\nFocus the conversation on these concrete observations: The student demonstrates low motivation to achieve their goals.; The student is nervous or anxious when speaking publicly.; The student appears overwhelmed by responsibilities..\n\nAgree on one short-term support plan, one check-in date, and one escalation trigger if the student worsens.",
+        "llm_guidance": "",
+        "retrieved_context": "responsibility may not be deliverable. Perhaps student-guided mentorship programs may offer a more readily deliverable source of support and promote positive strategies for coping with burnout [42], as senior healthcare students can more easily relate to challenges encountered by junior students in ",
+        "verification": {
+          "is_valid": true,
+          "issues": [],
+          "cleaned_suggestion": "Current case pattern: Moderate Risk.\nStrongest contributing domains: Motivation Decline (moderate, avg 3.33/5), Support Availability (high, avg 4.25/5), Behavioral Withdrawal (moderate, avg 3.5/5).\nMost relevant observed indicators: The student demonstrates low motivation to achieve their goals., The student is nervous or anxious when speaking publicly., The student appears overwhelmed by responsibilities., The student shows low confidence in overcoming personal challenges..\nEscalation flags: Do not wait for the student to re-initiate contact; outreach should be proactive.\n\nRecommended mentor actions:\n\n- [Motivation Decline] Use motivational interviewing techniques to explore the student's goals and reconnect them to their academic purpose. Set short-term, achievable milestones together. Address this directly in the next scheduled mentor meeting.\n- [Support Availability] Explore the student's support network. Discuss barriers to seeking help. Connect them with relevant peer mentoring or student support services. Treat this as a primary focus in the next mentor contact.\n- [Behavioral Withdrawal] Proactively reach out and do not wait for the student to initiate contact. Gently address noted withdrawal and explore barriers to engagement. Encourage peer connection. Address this directly in the next scheduled mentor meeting.\n\nFocus the conversation on these concrete observations: The student demonstrates low motivation to achieve their goals.; The student is nervous or anxious when speaking publicly.; The student appears overwhelmed by responsibilities..\n\nAgree on one short-term support plan, one check-in date, and one escalation trigger if the student worsens.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\nresponsibility may not be deliverable. Perhaps student-guided mentorship programs may offer a more readily deliverable source of support and promote positive strategies for coping with burnout [42], as senior healthcare students can more easily relate to challenges encountered by junior students in \n\nwith the control group (7.7 \u00b1 7 vs 11.7 \u00b1 9); p = 0.046. Similarly, mean \u00b1 SD perceived stress was"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-11T03:54:26.634982+00:00",
+      "_id": "f5800847-6a7c-45c4-a73f-00ee2cf01a61"
+    },
+    {
+      "student_name": "hala",
+      "student_id": "uday",
+      "programme": "vea",
+      "assessment_answers": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "risk_label": "Moderate Risk",
+      "risk_class": 1,
+      "hybrid_decision": {
+        "final_class": 1,
+        "rule_class": 1,
+        "ml_class": 1,
+        "conflict": false,
+        "resolution": "Both rule-based and ML models agree.",
+        "rule_label": "Moderate Risk",
+        "ml_label": "Moderate Risk",
+        "final_label": "Moderate Risk",
+        "weighted_score": 26.7,
+        "max_weighted_score": 44.5,
+        "score_ratio": 0.6
+      },
+      "xai": {
+        "top_indicators": [
+          "The student struggles significantly with academic coursework."
+        ],
+        "domain_scores": {
+          "Academic Stress": {
+            "label": "\ud83d\udcda Academic Stress",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Sleep Disruption": {
+            "label": "\ud83d\ude34 Sleep Disruption",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Emotional Exhaustion": {
+            "label": "\ud83d\udd25 Emotional Exhaustion",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Motivation Decline": {
+            "label": "\ud83d\udcc9 Motivation Decline",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Cognitive Overload": {
+            "label": "\ud83e\udde0 Cognitive Overload",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Behavioral Withdrawal": {
+            "label": "\ud83d\udeaa Behavioral Withdrawal",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          },
+          "Support Availability": {
+            "label": "\ud83e\udd1d Support Availability",
+            "shap_sum": 0.0,
+            "avg_input": 3.0,
+            "risk_contribution": 0.0
+          }
+        },
+        "all_shap_values": [
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          -0.0,
+          0.0
+        ],
+        "consistency_check": {
+          "is_consistent": true,
+          "warnings": []
+        }
+      },
+      "rag": {
+        "suggested_action": "Current case pattern: Moderate Risk.\nStrongest contributing domains: Academic Stress (low, avg 3.0/5), Sleep Disruption (low, avg 3.0/5), Emotional Exhaustion (low, avg 3.0/5).\nMost relevant observed indicators: The student struggles significantly with academic coursework..\n\nRecommended mentor actions:\n\n- [Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies. Keep this under routine observation while reinforcing protective factors.\n- [Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest. Keep this under routine observation while reinforcing protective factors.\n- [Emotional Exhaustion] Create a safe, non-judgmental space for the student to express stress. Explore sources of exhaustion. Signpost to counselling or peer support services. Keep this under routine observation while reinforcing protective factors.\n\nFocus the conversation on these concrete observations: The student struggles significantly with academic coursework..\n\nAgree on one short-term support plan, one check-in date, and one escalation trigger if the student worsens.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncoping strategies, instructor support, and campus connectivity. Healthy lifestyle practices, professional identity development, and supportive learning environments also play a greater role at the college level. Meanwhile, at the junior high, high school, and upper secondary levels, risk factors are\n\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the",
+        "monitoring_recommendation": "Repeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.",
+        "knowledge_guidance": "Current case pattern: Moderate Risk.\nStrongest contributing domains: Academic Stress (low, avg 3.0/5), Sleep Disruption (low, avg 3.0/5), Emotional Exhaustion (low, avg 3.0/5).\nMost relevant observed indicators: The student struggles significantly with academic coursework..\n\nRecommended mentor actions:\n\n- [Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies. Keep this under routine observation while reinforcing protective factors.\n- [Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest. Keep this under routine observation while reinforcing protective factors.\n- [Emotional Exhaustion] Create a safe, non-judgmental space for the student to express stress. Explore sources of exhaustion. Signpost to counselling or peer support services. Keep this under routine observation while reinforcing protective factors.\n\nFocus the conversation on these concrete observations: The student struggles significantly with academic coursework..\n\nAgree on one short-term support plan, one check-in date, and one escalation trigger if the student worsens.",
+        "llm_guidance": "",
+        "retrieved_context": "coping strategies, instructor support, and campus connectivity. Healthy lifestyle practices, professional identity development, and supportive learning environments also play a greater role at the college level. Meanwhile, at the junior high, high school, and upper secondary levels, risk factors are",
+        "verification": {
+          "is_valid": true,
+          "issues": [],
+          "cleaned_suggestion": "Current case pattern: Moderate Risk.\nStrongest contributing domains: Academic Stress (low, avg 3.0/5), Sleep Disruption (low, avg 3.0/5), Emotional Exhaustion (low, avg 3.0/5).\nMost relevant observed indicators: The student struggles significantly with academic coursework..\n\nRecommended mentor actions:\n\n- [Academic Stress] Arrange a focused academic review session. Help the student break down tasks into manageable steps and create a weekly plan. Discuss workload prioritization strategies. Keep this under routine observation while reinforcing protective factors.\n- [Sleep Disruption] Address sleep health in your next meeting. Provide information on student wellness resources. Discuss time management for rest. Keep this under routine observation while reinforcing protective factors.\n- [Emotional Exhaustion] Create a safe, non-judgmental space for the student to express stress. Explore sources of exhaustion. Signpost to counselling or peer support services. Keep this under routine observation while reinforcing protective factors.\n\nFocus the conversation on these concrete observations: The student struggles significantly with academic coursework..\n\nAgree on one short-term support plan, one check-in date, and one escalation trigger if the student worsens.\n\nMonitoring Recommendation:\nRepeat the full 25-item assessment within 1-2 weeks. Schedule a follow-up meeting after the next weekly screening to track trajectory.\n\nRetrieved Context:\ncoping strategies, instructor support, and campus connectivity. Healthy lifestyle practices, professional identity development, and supportive learning environments also play a greater role at the college level. Meanwhile, at the junior high, high school, and upper secondary levels, risk factors are\n\ncreate this hierarchy. Of note, one study on a mentorship program found that it only improved the"
+        }
+      },
+      "stage": "Stage 2 - Detailed ML Assessment",
+      "created_at": "2026-04-12T11:24:16.447285+00:00",
+      "_id": "361657bc-9bc5-4bb1-b7dd-ce42ac6b071e"
     }
   ],
   "feedback_sessions": [
@@ -1901,6 +2683,45 @@
       "created_at": "2026-04-09T17:48:59.715077+00:00",
       "completed_at": "",
       "_id": "bd98c0f3-3dbf-4da5-b182-08a5acc4321f"
+    },
+    {
+      "token": "5c16e0e6605b422a8d16eeb1bd9d8d5e",
+      "student_name": "uday",
+      "student_id": "22501a4436",
+      "student_email": "22501a4436@pvpsit.ac.in",
+      "programme": "data science",
+      "assessment_session_id": "3067788a-f02b-46b9-a1fe-4210187f4bd0",
+      "mentor_email": "udaysrinivas52@gmail.com",
+      "status": "pending",
+      "created_at": "2026-04-10T05:57:47.556542+00:00",
+      "completed_at": "",
+      "_id": "7c5cb8a8-5812-4e06-bb4d-b359e6e9aa6e"
+    },
+    {
+      "token": "744059a4392e4253a0cdb5b532e84ecd",
+      "student_name": "haka",
+      "student_id": "36",
+      "student_email": "22501a4436@pvpsit.ac.in",
+      "programme": "data",
+      "assessment_session_id": "75f6ee0b-5b23-4765-a1bf-bc31a6dc12eb",
+      "mentor_email": "udaysrinivas52@gmail.com",
+      "status": "pending",
+      "created_at": "2026-04-11T03:25:52.568088+00:00",
+      "completed_at": "",
+      "_id": "0e91eae9-3c47-4656-9204-fefa27095226"
+    },
+    {
+      "token": "35b7d618336049ad90ac8da064b4470d",
+      "student_name": "Ajay",
+      "student_id": "23501A4245",
+      "student_email": "mrinalinirao@pvpsiddhartha.ac.in",
+      "programme": "BTech",
+      "assessment_session_id": "f5800847-6a7c-45c4-a73f-00ee2cf01a61",
+      "mentor_email": "udaysrinivas52@gmail.com",
+      "status": "pending",
+      "created_at": "2026-04-11T03:58:35.440105+00:00",
+      "completed_at": "",
+      "_id": "3d1de9c1-c5a0-455a-8a91-c3195c2f68cd"
     }
   ],
   "users": [
